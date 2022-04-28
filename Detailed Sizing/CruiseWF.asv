@@ -1,0 +1,8 @@
+function W = CruiseWF(ac, Wlast, R, V)
+
+
+
+W = W * exp(-R * ac.power. / (325.9 * ac.engine.propEff * L_D));
+
+end
+
