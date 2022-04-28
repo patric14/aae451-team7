@@ -22,7 +22,7 @@ CL = Wi/(q * Sref);
 %% CD Buildup
 
 % Induced Drag Coefficient
-CDi = CL^2./(pi*ac.AR*e0); %* .7;
+CDi = CL^2./(pi*ac.AR*e0) * .7;
 
 
 % Parasitic drag buildup

@@ -27,7 +27,7 @@ for currentTripNumber = fire.trips
 
     % Loop until empty weight converges
     while (abs(W0 - W0_last) > 5)
-        weightToPower = (W0) / ac.totalPower;
+        weightToPower = (W0) / ac.totalPower
         ac.W_S = W0 / ac.wing.sw; %
         ac.W_D = W0 / (pi * 14 ^ 2 * 2); % Disk loading lb/ft^2
         %We = 24953.6587;

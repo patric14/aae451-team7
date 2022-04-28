@@ -15,7 +15,7 @@ range = 500;
 rangeLast = 0;
 
 while abs(range - rangeLast) >= 5
-    weightToPower = W0 / ac.totalPower;
+    weightToPower = W0 / ac.totalPower
     wTakeoff           = HoverWF(time.takeoff, W0, ac.PSFC, weightToPower);
     wClimb             = .985 * wTakeoff;
     ac                 = liftDrag(ac, wClimb, ac.Vcruz + 5, ac.cruzH);

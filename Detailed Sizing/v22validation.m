@@ -53,21 +53,10 @@ ac.vert_tail = vert_tail;
 dist.ramRange = 879.0497;
 ram.pax = 26;
 ram.wtPerPax = 250;
-%ram.We = 26996.3521;
 ram.W0_guess = W0;
 ac.cruzH = 25000;
 
-% Fire Parameters
-fire.trips = 1:20;
-fire.decidedTrips = 4;
-fire.fuelLimit = 2800;
-fire.galWater = 600;
-time.waterPickup = 1;
-dist.mainCruz = 100;
-dist.waterDescent = 5;
-dist.waterClimb = 5;
-dist.waterCruz = 20;
-dist.waterDrop = 5;
+fire = [];
 
 % Times
 time.takeoff = 5;

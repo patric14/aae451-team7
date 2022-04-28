@@ -17,7 +17,7 @@ end
 for i = 1:length(ram.range)
     wDiff = 100;
     while wDiff >= 5
-        weightToPower = W0 / ac.totalPower;
+        weightToPower = W0 / ac.totalPower
         We = wEmpty(W0, ac.AR, weightToPower, ac.W_S, ac.W_D, ac.Vmax);
         wTakeoff           = HoverWF(time.takeoff, W0, ac.PSFC, weightToPower);
         wClimb             = .985 * wTakeoff;

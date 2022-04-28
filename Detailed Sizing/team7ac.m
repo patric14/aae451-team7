@@ -8,7 +8,7 @@ clear; close all; clc;
 mission = 'final'; % Options: 'fire', 'ram', or 'trade'
 
 % Aircraft Parameters
-ac.enginePower = 5000; %hp
+ac.enginePower = 7000; %hp
 ac.numEngines = 2;
 ac.totalPower = ac.enginePower * ac.numEngines;
 ac.PSFC = .426; %lb/(hr*hp)
@@ -55,7 +55,6 @@ ac.vert_tail = vert_tail;
 dist.ramRange = 879.0497;
 ram.pax = 20;
 ram.wtPerPax = 250;
-%ram.We = 26996.3521;
 ram.W0_guess = W0;
 
 % Fire Parameters
